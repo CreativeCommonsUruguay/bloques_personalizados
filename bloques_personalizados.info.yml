@@ -1,0 +1,9 @@
+#bloques_personalizados.info.yml
+name: Bloques personalizados
+description: Crea bloques conteniendo las noticias recientes del Blog, bloques para efemérides con fecha del día, entre otros.
+package: AUTORES
+dependencies:
+  - block
+
+type: module
+core: 8.x

@@ -1,0 +1,28 @@
+{
+    "name": "drupal/bloques_personalizados",
+    "description": "Crea bloques conteniendo las noticias recientes del Blog, bloques para efemérides con fecha del día, entre otros",
+    "type": "drupal-module",
+    "homepage": "https://github.com/CreativeCommonsUruguay/bloques_personalizados",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Rodrigo Barbano",
+            "email": "rbarbano@vera.com.uy",
+            "role": "Maintainer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "support": {
+       "issues": "https://github.com/CreativeCommonsUruguay/bloques_personalizados/issues",
+       "source": "https://github.com/CreativeCommonsUruguay/bloques_personalizados"
+     },
+     "repositories": {
+         "bloques_personalizados": {
+             "type": "vcs",
+             "url": "https://github.com/CreativeCommonsUruguay/bloques_personalizados"
+         }
+       },
+     "require": {
+       "drupal/block": "*"
+     }
+}
